@@ -1,0 +1,8 @@
+#robinson formula
+a=int(input("enter the gender: "))       #0 for male & 1 female
+b=float(input("enter the height in inches: "))
+c=b-60
+if a==0:
+    print(52+1.9*c)                      #for male: w=52+1.9*(inches above 60 inches)
+else:
+    print(49+1.9*c)                      #for female: w=49+1.9*(inches above 60 inches)
