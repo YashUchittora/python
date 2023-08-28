@@ -1,5 +1,5 @@
 #robinson formula
-a=int(input("enter the gender: "))       #0 for male & 1 female
+a=int(input("enter the gender: "))       #0 for male & 1 for female
 b=float(input("enter the height in inches: "))
 c=b-60
 if a==0:
